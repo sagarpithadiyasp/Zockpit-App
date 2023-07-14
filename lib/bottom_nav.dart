@@ -33,21 +33,21 @@ class _BottomNavBarState extends State<BottomNavBar>
         exit(1);
       },
       child: Scaffold(
-        floatingActionButton: FloatingActionButton(
-          child: Container(
-            width: 60,
-            height: 60,
-            child: Icon(
-              Icons.add,
-              size: 30,
-            ),
-            decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                gradient: LinearGradient(
-                    colors: [AppColor.linearColor1, AppColor.linearColor2])),
-          ),
-          onPressed: () {},
-        ),
+        // floatingActionButton: FloatingActionButton(
+        //   child: Container(
+        //     width: 60,
+        //     height: 60,
+        //     child: Icon(
+        //       Icons.add,
+        //       size: 30,
+        //     ),
+        //     decoration: BoxDecoration(
+        //         shape: BoxShape.circle,
+        //         gradient: LinearGradient(
+        //             colors: [AppColor.linearColor1, AppColor.linearColor2])),
+        //   ),
+        //   onPressed: () {},
+        // ),
         extendBody: true,
         drawerEnableOpenDragGesture: false,
         bottomNavigationBar: bottomnavbar(context),
